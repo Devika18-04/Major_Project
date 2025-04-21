@@ -15,6 +15,29 @@ This project aims to develop a Deep Learning model which analyses chest X-ray im
 - Flask
 - Anaconda
 - Jupyter notebook
+## Step by step procedure for model development 
+1. **Problem Definition**
+   - **Identify the goal**: detect pneumonia from chest X-ray images using deep learning.
+2. **Data Collection**
+   - Download and organize the labeled chest X-ray dataset (Normal vs Pneumonia) from kaggle.
+3. **Data Preprocessing**
+    - Resize images to a standard size
+    - Normalize pixel values
+    - Apply augmentation for better generalization
+4. **Model Building**
+    - Use transfer learning with a pretrained model like VGG16 and EfficientNet-B0 load from ImageNet
+5. **Model Compilation**
+    - Set loss function (binary_crossentropy)
+    - Use Adam optimizer and monitor accuracy
+6. **Model Training**
+    - Fit the model on training data and validate on a holdout set. Monitor loss and accuracy over epochs.
+7. **Model Evaluation**
+    - Evaluate performance on test data. Plot confusion matrix, accuracy, precision, and recall.
+8. **Model Saving**
+    - Save the best model based on accuracy using model.save('best_model.h5')
+9. **Deployment**
+    - Build a simple Flask app to upload and predict X-rays via web interface.
+
 ## Usage
 1. **Run the Flask Application**
    ```bash
