@@ -64,5 +64,10 @@ Pneumonia_Detection/
 - **`Pneumonia_Detection/pneumonia_detection_transfer_leraning.ipynb`**: The file `pneumonia_detection_transfer_learning (2).ipynb` contains a transfer learning-based implementation using a pretrained model (likely VGG16 and EfficientNet-B0) to classify chest X-ray images into Pneumonia and Normal categories, enhancing performance with reduced training time.
 ## Project Images
 1. Home page of the application [here](https://drive.google.com/file/d/1d9znJ6vk63_HBbLtDFe2XrOK8lHLHJNn/view?usp=drive_link)
-
+2. Pneumonia chest x-ray image uploaded [here](https://drive.google.com/file/d/1RKhDq7klpBsSw-S7kbKn7lrr3iLF6VdJ/view?usp=drive_link)
+3. Image classified as Pneumonia [here](https://drive.google.com/file/d/1O6Q3gRiKHu0WyFCtso253gpseN38pWjL/view?usp=drive_link)
+4. Normal chest x-ray image uploaded [here](https://drive.google.com/file/d/1Bz0vsnS2mlNT7hIEgIjywYf9D5zwNtrX/view?usp=drive_link)
+5. Image classified as Normal [here](https://drive.google.com/file/d/1chQDDWYuB22FavN1DZGZ5Bz0oxhwhTSs/view?usp=drive_link)
+## Project Video
+For a detailed demonstration of Pneumonia Detection, you can watch the project video here [here](https://drive.google.com/file/d/1gTRoixlaL1WpGmOQ0CuSCidXgXaTJmxj/view?usp=drive_link)
    
