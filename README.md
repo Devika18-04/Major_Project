@@ -68,6 +68,6 @@ Pneumonia_Detection/
 3. Image classified as Pneumonia [here](https://drive.google.com/file/d/1O6Q3gRiKHu0WyFCtso253gpseN38pWjL/view?usp=drive_link)
 4. Normal chest x-ray image uploaded [here](https://drive.google.com/file/d/1Bz0vsnS2mlNT7hIEgIjywYf9D5zwNtrX/view?usp=drive_link)
 5. Image classified as Normal [here](https://drive.google.com/file/d/1chQDDWYuB22FavN1DZGZ5Bz0oxhwhTSs/view?usp=drive_link)
-## Project Video
+## Project Execution Video
 For a detailed demonstration of Pneumonia Detection, you can watch the project video here [here](https://drive.google.com/file/d/1gTRoixlaL1WpGmOQ0CuSCidXgXaTJmxj/view?usp=drive_link)
    
