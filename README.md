@@ -14,24 +14,55 @@ This project aims to develop a Deep Learning model which analyses chest X-ray im
 - Python 3.11 or higher
 - Flask
 - Anaconda
+- Jupyter notebook
 ## Usage
-1. Run the Flask Application
-   <pre>flask run</pre>
-2. Access the webpage
-   <pre>Open the browser and go to http://127.0.0.1:5000 to use the web application</pre>
+1. **Run the Flask Application**
+   ```bash
+   flask run
+   ```
+2. **Access the webpage**
+   Open the browser and go to `http://127.0.0.1:5000` to use the web application
 ## Project Structure
+```
 Pneumonia_Detection/
-├── app/
-│   ├── __init__.py
-│   ├── routes.py
-│   ├── static/
+├── chest_xray/
+│   │  ├──test/
+│   │  │  ├──NORMAL/
+│   │  │  └──PENUMONIA/
+│   │  ├──train/
+│   │  │  ├──NORMAL/
+│   │  │  └──PNEUMONIA/
+│   │  ├──val/
+│   │  │  ├──NORMAL/
+│   │  │  └──PNEUMONIA/
+├── Images/
+│   │  ├──category_distribution_bar.png 
+│   │  ├──category_distribution_pie.png
+│   │  ├──confusion_matrix.png
+│   │  └──image_display.png
+├── saved_models/
+│   │  ├──best_model.h5  
+├── static/
 │   │   ├── css/
-│   │   └── js/
-│   ├── templates/
+│   │   ├──js/
+│   │   ├──img.jpeg
+│   │   └──main.jpeg
+├── templates/
+│   │   ├──result.html
 │   │   └── index.html
-│   └── utils.py
+├── uploads/   
 ├── app.py
 ├── classification_report.txt
 ├── Dataset_Visualization.ipynb
+├── models_results.txt
+├── pneumonia_detection_transfer_learning.ipynb
 └── README.md
+```
+## Key files
+- **`Pneumonia_Detection/templates/index.html`**: The main HTML file the application interface
+- **`Pneumonia_Detection/app.py`**:The app.py file typically contains the main Flask application logic, including route definitions, model loading, and image prediction handling for the pneumonia detection system.
+- **`Pneumonia_Detection/pneumonia_detection_transfer_leraning.ipynb`**: The file `pneumonia_detection_transfer_learning (2).ipynb` contains a transfer learning-based implementation using a pretrained model (likely VGG16 and EfficientNet-B0) to classify chest X-ray images into Pneumonia and Normal categories, enhancing performance with reduced training time.
+## Project Images
+1. Home page of the application [here](https://drive.google.com/file/d/1d9znJ6vk63_HBbLtDFe2XrOK8lHLHJNn/view?usp=drive_link)
+
    
