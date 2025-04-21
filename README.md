@@ -62,7 +62,7 @@ Pneumonia_Detection/
 - **`Pneumonia_Detection/templates/index.html`**: The main HTML file the application interface
 - **`Pneumonia_Detection/app.py`**:The app.py file typically contains the main Flask application logic, including route definitions, model loading, and image prediction handling for the pneumonia detection system.
 - **`Pneumonia_Detection/pneumonia_detection_transfer_leraning.ipynb`**: The file `pneumonia_detection_transfer_learning (2).ipynb` contains a transfer learning-based implementation using a pretrained model (likely VGG16 and EfficientNet-B0) to classify chest X-ray images into Pneumonia and Normal categories, enhancing performance with reduced training time.
-## Project Images
+## Project Ouput Images
 1. Home page of the application [here](https://drive.google.com/file/d/1d9znJ6vk63_HBbLtDFe2XrOK8lHLHJNn/view?usp=drive_link)
 2. Pneumonia chest x-ray image uploaded [here](https://drive.google.com/file/d/1RKhDq7klpBsSw-S7kbKn7lrr3iLF6VdJ/view?usp=drive_link)
 3. Image classified as Pneumonia [here](https://drive.google.com/file/d/1O6Q3gRiKHu0WyFCtso253gpseN38pWjL/view?usp=drive_link)
